@@ -1,0 +1,1 @@
+<img src="./smartbits.png" alt="" class="size-12">
