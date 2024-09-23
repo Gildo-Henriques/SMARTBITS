@@ -9,7 +9,7 @@
     <div
       class="flex lg:absolute lg:top-20 lg:right-0 items-center w-full max-w-5xl overflow-scroll overflow-x-hidden overflow-y-auto p-8 mx-auto lg:px-12 lg:w-3/5"
     >
-      <div class="w-full">
+      <div class="w-full mt-16 lg:0">
         <h1
           class="text-2xl font-semibold tracking-wider text-gray-800 capitalize"
         >
@@ -24,7 +24,7 @@
           <h1 class="text-gray-900">Dados do aluno:</h1>
         </div>
 
-        <form class="grid grid-cols-1 gap-6 mt-8 md:grid-cols-2">
+        <form class="flex flex-col lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 gap-6 mt-8 ">
           <div>
             <label class="block mb-2 text-sm text-gray-600">Primeiro nome</label
             >

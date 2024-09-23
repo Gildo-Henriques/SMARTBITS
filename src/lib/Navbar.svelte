@@ -23,7 +23,7 @@
   </button>
   <!-- LINKS -->
 
-<nav  class="lg:flex gap-x-5 flex flex-col  items-end  ease-in-out lg:flex-row    lg:h-auto h-screen lg:static fixed left-0 p-5 -top-full lg:w-auto w-full" class:Navbar>
+<nav  class="lg:flex gap-x-5 flex flex-col  items-end  ease-in-out lg:flex-row   z-10 lg:h-auto h-screen lg:static fixed left-0 p-5 -top-full lg:w-auto w-full" class:Navbar>
     <div class="flex w-4/5 lg:flex-row z-20 flex-col items-end rounded-md bg-white lg:mt-0 lg:p-0 px-5 pt-5 lg:gap-5 gap-5 shadow lg:shadow-none">
       <button class="lg:hidden flex" on:click={OpenNavbar}>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -40,6 +40,10 @@
           <a href="./sign-in" class="border-2 lg:border-castanho-100 border-gray-200 w-full text-center lg:text-castanho-100 text-gray-700 lg:px-5 lg:py-2  py-2 px-3 rounded-md" on:click={OpenNavbar}>Cadastra-se</a>
          </div>
         </div>
-        <div class="backdrop-blur-sm bg-black/15 w-full h-full absolute top-0 left-0 lg:hidden flex" on:click={OpenNavbar}></div>
+
+        
 
 </nav>
+{#if Navbar}
+<div class="backdrop-blur-sm bg-black/15 w-full h-full fixed top-0 left-0 lg:hidden flex"></div>
+{/if}
