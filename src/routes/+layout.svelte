@@ -6,7 +6,7 @@
 
 <header class="w-full h-16 flex items-center fixed bg-white z-30 lg:justify-around justify-between px-6 shadow-md">
   <!-- Logotipo -->
-  <a href="./gay" class="flex items-center space-x-3">
+  <a href="./" class="flex items-center space-x-3">
     <Logo />
     <span class="font-semibold text-sm">SMARTBITS</span>
   </a>
